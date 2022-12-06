@@ -105,7 +105,7 @@ class VideoGrant {
   }
 
   /**
-   * @return bool | null
+   * @return bool
    */
   public function isRoomCreate(): bool {
     return $this->roomCreate;
@@ -122,9 +122,9 @@ class VideoGrant {
   }
 
   /**
-   * @return bool | null
+   * @return bool
    */
-  public function isRoomJoin(): bool | null {
+  public function isRoomJoin(): bool {
     return $this->roomJoin;
   }
 
@@ -139,7 +139,7 @@ class VideoGrant {
   }
 
   /**
-   * @return bool | null
+   * @return bool
    */
   public function isRoomList(): bool {
     return $this->roomList;
@@ -156,9 +156,9 @@ class VideoGrant {
   }
 
   /**
-   * @return bool | null
+   * @return bool
    */
-  public function isRoomRecord(): bool| null {
+  public function isRoomRecord(): bool {
     return $this->roomRecord;
   }
 
@@ -173,7 +173,7 @@ class VideoGrant {
   }
 
   /**
-   * @return bool | null
+   * @return bool
    */
   public function isRoomAdmin(): bool {
     return $this->roomAdmin;
@@ -207,7 +207,7 @@ class VideoGrant {
   }
 
   /**
-   * @return bool | null
+   * @return bool
    */
   public function isIngressAdmin(): bool {
     return $this->ingressAdmin;
@@ -224,7 +224,7 @@ class VideoGrant {
   }
 
   /**
-   * @return bool | null
+   * @return bool
    */
   public function isCanPublish(): bool {
     return $this->canPublish;
@@ -241,7 +241,7 @@ class VideoGrant {
   }
 
   /**
-   * @return bool | null
+   * @return bool
    */
   public function isCanSubscribe(): bool {
     return $this->canSubscribe;
@@ -258,7 +258,7 @@ class VideoGrant {
   }
 
   /**
-   * @return bool | null
+   * @return bool
    */
   public function isCanPublishData(): bool {
     return $this->canPublishData;
@@ -275,7 +275,7 @@ class VideoGrant {
   }
 
   /**
-   * @return bool | null
+   * @return bool
    */
   public function isHidden(): bool {
     return $this->hidden;
@@ -292,7 +292,7 @@ class VideoGrant {
   }
 
   /**
-   * @return bool | null
+   * @return bool
    */
   public function isRecorder(): bool {
     return $this->recorder;
